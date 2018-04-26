@@ -1,0 +1,100 @@
+
+/*设置表格标题字体和颜色*/
+.table_title{
+	color: #FFFFFF;
+	font-size:20px;
+}
+
+h1,h2 {
+    color: #FFFFFF;
+}
+
+/*网页背景图片*/
+body {
+    background-size:100%;
+	background-image: url(../image/user_background.jpg);
+}
+
+/*容器样式设置半透明效果*/
+.container-user {
+    margin: 0 auto;
+    background-color: rgba(10, 10, 10, 0.77);
+    border: 2px ridge rgba(238, 238, 238, 0.13);
+    border-radius: 5px;
+    -moz-box-shadow: 0 -5px 10px 1px rgba(16, 16, 16, 0.57);
+    -webkit-box-shadow: 0 -5px 10px 1px rgba(16, 16, 16, 0.57);
+    box-shadow: 0 -5px 10px 1px rgba(16, 16, 16, 0.57);
+    border-bottom: none;
+    border-bottom-left-radius: initial;
+    border-bottom-right-radius: initial;
+}
+
+/*表格字体颜色设置为白色*/
+.table{
+	color:#FFFFFF;
+}
+
+/*input输入框样式（文本和密码框）*/
+input[type="text"], input[type="password"]{
+    width: auto;
+    padding: 10px;
+    float: left;
+    background-color: transparent;
+    font-size: 15px;
+    border-bottom: 1px solid rgba(238, 238, 238, 0.41);
+    outline: none;
+    color: #FFF;
+	border-radius:3px;
+	
+}
+
+/*input输入框只读*/
+input[type="text_readonly"]{
+    width: auto;
+    padding: 10px;
+    float: left;
+    background-color: transparent;
+    font-size: 15px;
+    border-bottom: 1px solid rgba(238, 238, 238, 0.41);
+    outline: none;
+    color: #FFF;
+	border-radius:3px;
+	border:1px solid #000;
+	
+}
+
+/*下拉框样式*/
+select[type="select1"]{
+    width: auto;
+    float: left;
+    background-color: transparent;
+    font-size: 15px;
+    border-bottom: 1px solid rgba(238, 238, 238, 0.41);
+    outline: none;
+    color: #FFF;
+}	
+
+/*按钮样式*/
+.btn[type="submit"],.btn[type="reset"],.btn[type="button"] {
+    width: auto;
+	height: 30px;
+    
+    font-size: 16px;
+    font-weight: 100;
+    background-color: transparent;
+    color: #CCC;
+    border: 1px solid rgba(238, 238, 238, 0.41);
+    border-width: 1px;
+    cursor: pointer;
+    outline: none;
+    transition:0.5s all;
+    -webkit-transition:0.5s all;
+    -moz-transition:0.5s all;
+    -o-transition:0.5s all;
+    -ms-transition:0.5s all;
+    text-decoration: none;
+}
+
+
+
+
